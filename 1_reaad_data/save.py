@@ -11,3 +11,5 @@ data={
 # Creating a new Data Frame
 df=pd.DataFrame(data)
 print(df)
+
+df.to_csv("output.csv")
